@@ -1,0 +1,19 @@
+/* Настройки лейаута */
+@import "layout/normalize.css";
+@import "layout/fonts.css";
+@import "layout/base.css";
+
+/* Компоненты */
+@import "components/header.css";
+@import "components/sidebar.css";
+@import "components/partners.css";
+@import "components/breadcrumbs.css";
+@import "components/pagination.css";
+@import "components/form.css";
+@import "components/footer.css";
+
+/* Страницы */
+@import "pages/intro.css";
+@import "pages/mainpage.css";
+@import "pages/comments.css";
+@import "pages/price.css";

@@ -1,0 +1,43 @@
+
+/*партнеры*/
+
+.partners{
+  margin-bottom: 20px;
+
+  }
+
+.partners__title{
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.partners__list{
+  margin-right: -110px;
+}
+
+.partners__item{
+  width: 160px;
+  float: left;
+  margin-bottom: 50px;
+  text-align: center;
+  -webkit-filter: grayscale(100%) opacity(80%);
+   -moz-filter: grayscale(100%) opacity(80%);
+    -ms-filter: grayscale(100%) opacity(80%);
+     -o-filter: grayscale(100%) opacity(80%);
+        filter: grayscale(100%) opacity(80%);
+  margin-right: 110px;
+   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+
+.partners__link{
+  display: block;
+}
+
+.partners__item:hover {
+   -webkit-filter: none;
+          filter: none;
+}

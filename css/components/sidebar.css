@@ -1,0 +1,142 @@
+
+.sidebar{
+  width: 180px;
+  float: left;
+  padding-top: 45px;
+  /*padding-right: 10px;  - этот padding для блока .sidebar я поставила для того, чтобы его контент не прилип справа к основной части, если, например, название пунктов меню будет длиннее, или ниже добавится еще какой-нибудь блок*/
+  
+}
+
+.nav-menu__item{
+  margin-bottom: 29px;
+}
+
+.nav-menu__link{
+  text-decoration: none;
+  display: block;
+}
+
+.nav-menu__text{
+  color: #ec1e79;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  max-width: 122px;
+  transition: color 0.5s;
+  vertical-align:text-top;
+  /*padding-left: 36px;*/
+}
+
+.nav-menu__icon-wrap{
+  width: 21px;   
+  height: 20px;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  vertical-align:text-top;
+}
+
+.nav-menu__icon{
+  position: absolute;
+  display: inline-block;
+  width: 21px;
+  height: 20px;
+  background: url('../../img/icons/spritesheet_sidebar.png');
+  background-repeat: no-repeat;
+}
+
+
+.nav-menu__link:hover .nav-menu__text{
+  color: #221f1f;
+}
+
+.nav-menu__icon_triangle{
+    background-position: -92px -10px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+ }
+
+ .nav-menu__icon_wallet{
+    background-position: -166px -10px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+  }
+  
+.nav-menu__icon_star {
+    background-position: -10px -10px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+ .nav-menu__icon_triangle-hover{
+   background-position: -129px -10px;
+   opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+ }
+
+ .nav-menu__icon_wallet-hover{
+   background-position: -205px -10px;
+   opacity: 0;
+       -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+ }
+
+ .nav-menu__icon_star-hover{
+   background-position: -51px -10px;
+   opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+ }
+
+
+.nav-menu__link_main:hover .nav-menu__icon_triangle{
+  opacity: 0;
+}
+
+.nav-menu__link_main:hover .nav-menu__icon_triangle-hover{
+  opacity: 1;
+}
+
+
+.nav-menu__link_price:hover .nav-menu__icon_wallet{
+  opacity: 0;
+}
+
+.nav-menu__link_price:hover .nav-menu__icon_wallet-hover{
+  opacity: 1;
+}
+
+.nav-menu__link_comments:hover .nav-menu__icon_star{
+  opacity: 0;
+}
+
+.nav-menu__link_comments:hover .nav-menu__icon_star-hover{
+  opacity: 1;
+}
+
+.nav-menu__item_active .nav-menu__text{
+  color: #221f1f;
+}
+
+.nav-menu__item_active .nav-menu__icon_triangle{
+  background-position: -129px -10px;
+ }
+
+.nav-menu__item_active .nav-menu__icon_wallet{
+  background-position: -205px -10px;
+}
+
+.nav-menu__item_active .nav-menu__icon_star{
+  background-position: -51px -10px; 
+}

@@ -1,0 +1,105 @@
+.main__container_price-page{
+	padding-top: 36px;
+}
+
+.price-block{
+	margin-bottom: 50px;
+}
+
+.price-block__title{
+  font-size: 49px;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.price-block__list{
+	font-size: 0;
+	margin-right: -55px;
+}
+
+.price-block__item{
+	display: inline-block; 
+	vertical-align: top;
+	text-align: center;
+	width: 256px;
+	margin-right: 55px;
+	margin-bottom: 45px;
+}
+
+.price-package{
+	display: block;
+	text-decoration: none;
+}
+
+.price-package__img-box{
+	margin-bottom: 23px;
+	height: 154px;
+	position: relative;
+	overflow: hidden;
+	background-color: #27273e;
+	border-radius: 3px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.price-package__img{
+	width: 100%;
+	-webkit-filter: opacity(10%);
+	        filter: opacity(10%);
+}
+
+.price-package__title{
+	color: #5dd1f8;
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	    -ms-transform: translate(-50%, -50%);
+  	        transform: translate(-50%, -50%);
+  	line-height: 34px;
+  	width: 90%;
+  	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}	
+
+.price-package_vip  .price-package__title:before {
+	content: "vip ";
+	color: #ec1e79;
+	text-transform: uppercase;
+	display: block;
+
+}
+
+.price-package:hover .price-package__title {
+	color: #ec1e79;
+}
+
+.price-package:hover .price-package__img-box {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.price-package__text-box{
+	color: #221f1f;
+}
+
+.price-package__fee{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.price-package__terms{
+	font-size: 14px;
+	line-height: 21px;
+}
+

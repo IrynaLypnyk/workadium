@@ -1,0 +1,66 @@
+.page-image{
+  position: relative;
+  background-color: #27273e;
+  background-image: url("../../img/bgs/mainpage_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 355px;
+  margin-bottom: 15px;
+ }
+
+.page-image__title{
+  color: #fff;
+  font-size: 49px;
+  font-weight: bold;
+  position: absolute;
+  top: 140px;
+  left: 65px;
+  text-transform: uppercase;
+  
+}
+.page-text__container{
+  /*width: 700px;*/
+  padding-right: 180px;
+  line-height: 1.66;
+}
+
+.page-text {
+   margin-bottom: 20px;
+}
+
+.page-text p{
+   margin-bottom: 10px;
+}
+
+.page-text ul{
+  margin-left: 36px;
+  margin-bottom: 10px;
+}
+
+.page-text li{
+  position: relative;
+  padding-top: 5px;
+}
+
+.page-text li:before{
+  content: '\2022';
+  color: #ec1e79;
+  position: absolute;
+  left: -20px;
+}  
+
+.discount{
+  background: #27273e;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+.discount__percent{
+  color: #ec1e79;
+  font-weight: bold;
+}
+

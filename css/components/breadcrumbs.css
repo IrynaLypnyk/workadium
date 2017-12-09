@@ -1,0 +1,38 @@
+
+.breadcrumbs{
+	margin-bottom: 20px;
+}
+
+.breadcrumbs__item{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.breadcrumbs__link{
+	color: #ec1e79;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.breadcrumbs__item:after {
+	content: "/";
+	font-size: 12px;
+}
+
+
+.breadcrumbs__item_last .breadcrumbs__link{
+	color: #221f1f;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.breadcrumbs__item_last:after {
+	display: none;
+}
+
+.breadcrumbs__item:hover .breadcrumbs__link{
+	color: #221f1f;
+}
+
